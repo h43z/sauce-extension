@@ -1,0 +1,12 @@
+{
+  "name": "sauce extension",
+  "description": "show the source of a page inside a dev tools panel",
+  "manifest_version": 2,
+  "version": "0.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sauce@h43z"
+    }
+  },
+  "devtools_page": "devtools-page.html"
+}
