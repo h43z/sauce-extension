@@ -1,1 +1,5 @@
 *.zip
+package.json
+node_modules
+editor.mjs
+package-lock.json

@@ -3,4 +3,3 @@ browser.devtools.panels.create(
   'source.png',
   'panel.html'
 )
-
