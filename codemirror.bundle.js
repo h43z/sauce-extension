@@ -16903,6 +16903,7 @@ class SearchPanel {
             placeholder: phrase(view, "Find"),
             "aria-label": phrase(view, "Find"),
             class: "cm-textfield",
+            autocomplete: "off",
             name: "search",
             form: "",
             "main-field": "true",

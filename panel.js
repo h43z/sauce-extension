@@ -1,4 +1,4 @@
-import {editor} from './editor.bundle.js'
+import { editor } from './codemirror.bundle.js'
 
 browser.devtools.network.onRequestFinished.addListener(async e => {
   const url = await browser.devtools.inspectedWindow.eval(`document.URL`)
@@ -15,6 +15,7 @@ browser.devtools.network.onRequestFinished.addListener(async e => {
 onkeydown = e => {
   if(e.key === 'Escape'){
     // else buggy behavoir when opening inline dev tools
+    // or closing codemirror search
     e.preventDefault()
   }
 }
